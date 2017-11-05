@@ -35,7 +35,7 @@ public class Curso implements Serializable {
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "id_programa")
-    private Programa programa;
+    private Programa programa;// se coloca asi por se una llave foranea
 
     public Long getId() {
         return id;
@@ -77,4 +77,5 @@ public class Curso implements Serializable {
         this.programa = programa;
     }
 
+    
 }
