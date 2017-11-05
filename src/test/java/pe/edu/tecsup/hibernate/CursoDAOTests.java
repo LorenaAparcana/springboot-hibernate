@@ -11,7 +11,7 @@ import pe.edu.tecsup.hibernate.model.Curso;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class CursoDAOTests {
+public class CursoDAOTests{
 
     @Autowired
     CursoDAO cursoDAO;
